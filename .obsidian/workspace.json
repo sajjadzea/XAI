@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "94774856e6995171",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d9ae01a61aa4415",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7830d5faf8970c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled/Application Domains.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Application Domains"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c6d5ba6300b4704a",
+    "type": "split",
+    "children": [
+      {
+        "id": "06109faf7183a443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "593a5ae92ed3a1bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5a2d8b7881324954",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "588c45c43f396b52",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d5102f1d52c5749f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6e8878f40c8e23f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "725166ee6eb5528f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025-04-26.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-04-26"
+            }
+          },
+          {
+            "id": "572d770101690ca3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2025-04-26.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-04-26"
+            }
+          },
+          {
+            "id": "10d2a72529a56824",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5d98aca5b6af9b5a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled/Application Domains.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Application Domains"
+            }
+          },
+          {
+            "id": "914d14c8203d93ee",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "github-sync:Sync with Remote": false
+    }
+  },
+  "active": "593a5ae92ed3a1bf",
+  "lastOpenFiles": [
+    "git init",
+    "New folder",
+    "Untitled/Challenges & Limitations.md",
+    "Untitled/Emerging Trends.md",
+    "Untitled/Tools & Libraries.md",
+    "Untitled/XAI.md",
+    "Untitled/Methodologies.md",
+    "Untitled/Frameworks & Guidelines.md",
+    "Untitled/Application Domains.md",
+    "Differences & Relations.md",
+    "Untitled/Core Concepts.md",
+    "2025-04-26.md",
+    "xai2.md",
+    "2025-04-23.md",
+    "create a link.md",
+    "Explainability AI.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "Untitled 3.canvas",
+    "Welcome.md",
+    "Untitled/Evaluation & Metrics.md",
+    "Untitled 1",
+    "Untitled",
+    "Untitled.md"
+  ]
+}

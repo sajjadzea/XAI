@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        :root {
+            --bg-body: #e0e0e0;
+            --bg-slide: #ffffff;
+            /* Colors */
+            --danger-dark: #c62828;   /* Red */
+            --danger-light: #ef5350;
+            --danger-bg: #fff5f5;
+            --warning-dark: #f57c00;  /* Orange/Yellow */
+            --warning-light: #ffb74d;
+            --warning-bg: #fff8e1;
+            --success-dark: #2e7d32;  /* Green */
+            --success-light: #66bb6a;
+            --success-bg: #e8f5e9;
+        }
+        body { font-family: 'Vazirmatn', sans-serif; background: var(--bg-body); display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .instagram-slide { width: 1080px; height: 1080px; background: var(--bg-slide); padding: 60px; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: space-between; }
+        h1.slide-title { font-size: 3.5rem; font-weight: 900; margin: 0; text-align: center; padding-bottom: 20px; border-bottom: 4px solid var(--success-dark); width: 90%; }
+        .chart-container { flex-grow: 1; width: 100%; display: flex; justify-content: center; align-items: center; }
+        .mermaid { font-family: 'Vazirmatn'; font-weight: 600; width: 100%; display: flex; justify-content: center; }
+        .analysis-box { padding: 35px; border-radius: 12px; width: 100%; box-sizing: border-box; border-right: 8px solid var(--success-dark); background-color: var(--success-bg); }
+        .analysis-text { font-size: 1.7rem; line-height: 1.7; text-align: justify; margin: 0; }
+        .highlight { font-weight: 800; border-bottom: 2px dotted; }
+    </style>
+</head>
+<body>
+    <div class="instagram-slide">
+        <h1 class="slide-title" style="color: var(--success-dark);">جهش اجباری: تنها راه نجات</h1>
+        <div class="chart-container">
+            <div class="mermaid">
+                graph TD
+                A["شکاف بحرانی"]:::orange-style
+                B["استقرار ایجنت‌های هوشمند"]:::green-bold-style
+                C["افزایش بهره‌وری و کیفیت"]:::green-style
+                
+                A -->|"اجبار به تغییر"| B
+                B -->|"نتیجه"| C
+                
+                classDef orange-style fill:#fff8e1,stroke:#f57c00,stroke-width:3px,color:#f57c00
+                classDef green-bold-style fill:#e8f5e9,stroke:#2e7d32,stroke-width:4px,color:#2e7d32,font-weight:bold
+                classDef green-style fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px,color:#2e7d32
+            </div>
+        </div>
+        <div class="analysis-box">
+            <p class="analysis-text">سیستم مجبور است برای بقا، کارهای تکراری را به <span class="highlight">ایجنت‌های هوشمند</span> بسپارد. ایجنت خسته نمی‌شود، حقوق نمی‌خواهد و کیفیت را تضمین می‌کند.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: false,
+                htmlLabels: true
+            },
+            rtl: true
+        });
+    </script>
+</body>
+</html>
